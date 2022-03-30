@@ -14,6 +14,14 @@ producing a score per answer. Finally, stream embeddings are fused separately pe
 
 
 ### Environment Setup
+
+To create a conda environment: 
+````
+conda env create -f environment.yml
+````
+
+or
+
 ````
 conda create --name  dialog-videoqa python=3.6
 conda activate dialog-videoqa
